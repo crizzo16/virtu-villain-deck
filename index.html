@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Marvel Legendary Virtual Villain Deck</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <!-- Fonts! -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex flex-center">
+            <h1 class="title-font">Virtual Villain Deck</h1>
+        </header>
+
+        <!-- City section -->
+        <div class="black-box">
+            <div class="flex flex-center">
+                <div class="city-space">
+                    <h4>Bridge</h4>
+                    <div id="c-bridge" class="card-space"></div>
+                </div>
+                <div class="city-space">
+                    <h4>Streets</h4>
+                    <div id="c-streets" class="card-space"></div>
+                </div>
+                <div class="city-space">
+                    <h4>Rooftops</h4>
+                    <div id="c-rooftops" class="card-space"></div>
+                </div>
+                <div class="city-space">
+                    <h4>Bank</h4>
+                    <div id="c-bank" class="card-space"></div>
+                </div>
+                <div class="city-space">
+                    <h4>Sewers</h4>
+                    <div id="c-sewers" class="card-space"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All of the collapsibles -->
+        <div class="row">
+            <div id="escape" class="collapsible expandable">
+                <div class="collapsible-header">Escaped Villains</div>
+                <div class="collapsible-body white-back">test</div>
+            </div>
+            <div id="victory-pile" class="collapsible expandable">
+                <div class="collapsible-header">Victory Pile</div>
+                <div class="collapsible-body white-back"></div>
+            </div>
+            <div id="deck-cards" class="collapsible expandable">
+                <div class="collapsible-header">Possible Cards</div>
+                <div class="collapsible-body white-back"></div>
+            </div>
+            <div id="full-roster" class="collapsible expandable">
+                <div class="collapsible-header">All Bad Dudes</div>
+                <div class="collapsible-body white-back"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
