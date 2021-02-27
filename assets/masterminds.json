@@ -1,0 +1,41 @@
+[
+    {
+        "type": "mastermind",
+        "name": "Loki",
+        "id": 102,
+        "set": "Main",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/loki-01.jpg",
+        "vp": 5,
+        "attack": 10,
+        "cards": [
+            {
+                "dude": "Loki",
+                "name": "Cruel Ruler",
+                "id": 1021,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/loki-02.jpg",
+                "vp": 5
+            },
+            {
+                "dude": "Loki",
+                "name": "Maniacal Tyrant",
+                "id": 1022,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/loki-03.jpg",
+                "vp": 5
+            },
+            {
+                "dude": "Loki",
+                "name": "Vanishing Illusions",
+                "id": 1023,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/loki-04.jpg",
+                "vp": 5
+            },
+            {
+                "dude": "Loki",
+                "name": "Whispers and Lies",
+                "id": 1024,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/loki-05.jpg",
+                "vp": 5
+            }
+        ]
+    }
+]
