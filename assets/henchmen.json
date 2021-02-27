@@ -1,0 +1,72 @@
+[
+    {
+        "type": "henchmen",
+        "name": [
+            "Savage Land Mutants"
+        ],
+        "id": 123,
+        "attack": [
+            3
+        ],
+        "img": [
+            "https://marveldbg.com/wp-content/uploads/2019/09/savage-land-mutants.jpg"
+        ],
+        "vp": [
+            1
+        ],
+        "amount": 10
+    },
+    {
+        "type": "henchmen",
+        "name": [
+            "Spin, the Vortex Beam",
+            "Zero, the Ice Blast",
+            "Remaker, the Matter Rearranger",
+            "Spectral, the Disintegration Beam",
+            "Influence, the Impact Beam",
+            "Liar, the Mento-Intensifier",
+            "Lightning, the Electro-Blast",
+            "Nightbringer, the Black Light",
+            "Incandescence, the Flame Blast",
+            "Daimonic, the White Light"
+        ],
+        "id": 421,
+        "attack": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "img": [
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-01.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-02.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-03.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-04.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-05.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-06.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-07.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-08.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-09.jpg",
+            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-10.jpg"
+        ],
+        "vp": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "amount": 10
+    }
+]

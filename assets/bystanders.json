@@ -1,0 +1,128 @@
+[
+    {
+        "type": "bystander",
+        "name": "Regular",
+        "id": 131,
+        "set": "Main",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystanders.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Aspiring Hero",
+        "id": 231,
+        "set": "Civil War",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystander-aspiring-hero.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Comic Shop Keeper",
+        "id": 232,
+        "set": "Civil War",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystander-comic-shop-keeper.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Bulldozer Driver",
+        "id": 331,
+        "set": "Dimensions",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/06/bulldozer-driver.png",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Double Agent of SHIELD",
+        "id": 332,
+        "set": "Dimensions",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/06/double-agent-shield.png",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Forklift Driver",
+        "id": 333,
+        "set": "Dimensions",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/06/forklift-driver.png",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Fortune Teller",
+        "id": 334,
+        "set": "Dimensions",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/06/fortune-teller.png",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Photographer",
+        "id": 335,
+        "set": "Dimensions",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/06/photographer.png",
+        "vp": 1,
+        "special": "Worth +1 VP for each Hero you have that costs 7 or more"
+    },
+    {
+        "type": "bystander",
+        "name": "Dog Show Judge",
+        "id": 431,
+        "set": "Revelations",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/dog-show-judge.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Lawyer",
+        "id": 432,
+        "set": "Revelations",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/lawyer.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Rocket Test Pilot",
+        "id": 433,
+        "set": "Revelations",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/rocket-test-pilot.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Alligator Trapper",
+        "id": 531,
+        "set": "Secret Wars Vol. 2",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystander-alligator-trapper.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Shapeshifted Copycat",
+        "id": 532,
+        "set": "Secret Wars Vol. 2",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystander-shapeshifter-copycat.jpg",
+        "vp": 1,
+        "special": ""
+    },
+    {
+        "type": "bystander",
+        "name": "Undercover Agent",
+        "id": 533,
+        "set": "Secret Wars Vol. 2",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/bystander-undercover-agent.jpg",
+        "vp": 1,
+        "special": ""
+    }
+]
