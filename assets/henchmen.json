@@ -2,73 +2,125 @@
     {
         "type": "henchmen",
         "name": "Savage Land Mutants",
-        "cards": [
-            "Savage Land Mutants"
-        ],
         "id": 123,
-        "attack": [
-            3
-        ],
-        "img": [
-            "https://marveldbg.com/wp-content/uploads/2019/09/savage-land-mutants.jpg"
-        ],
-        "vp": [
-            1
-        ],
-        "amount": 10
+        "cards": [
+            {
+                "type": "henchmen",
+                "main": "Savage Land Mutants",
+                "name": "Savage Land Mutants",
+                "id": 1231,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/savage-land-mutants.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            }
+        ]
     },
     {
         "type": "henchmen",
         "name": "Mandarin Rings",
-        "cards": [
-            "Spin, the Vortex Beam",
-            "Zero, the Ice Blast",
-            "Remaker, the Matter Rearranger",
-            "Spectral, the Disintegration Beam",
-            "Influence, the Impact Beam",
-            "Liar, the Mento-Intensifier",
-            "Lightning, the Electro-Blast",
-            "Nightbringer, the Black Light",
-            "Incandescence, the Flame Blast",
-            "Daimonic, the White Light"
-        ],
         "id": 421,
-        "attack": [
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3
-        ],
-        "img": [
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-01.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-02.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-03.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-04.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-05.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-06.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-07.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-08.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-09.jpg",
-            "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-10.jpg"
-        ],
-        "vp": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "amount": 10
+        "cards": [
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Spin, the Vortex Beam",
+                "id": 4211,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-1.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Zero, the Ice Blast",
+                "id": 4212,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-2.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Remaker, the Matter Rearranger",
+                "id": 4213,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-3.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Spectral, the Disintegration Beam",
+                "id": 4214,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-4.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Influence, the Impact Beam",
+                "id": 4215,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-5.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Liar, the Mento-Intensifier",
+                "id": 4216,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-6.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Lightning, the Electro-Blast",
+                "id": 4217,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-7.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Nightbringer, the Black Light",
+                "id": 4218,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-8.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Incandescence, the Flame Blast",
+                "id": 4219,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-9.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            },
+            {
+                "type": "henchmen",
+                "main": "Mandarin Rings",
+                "name": "Daimonic, the White Light",
+                "id": 42110,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-10.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            }
+        ]
     }
 ]

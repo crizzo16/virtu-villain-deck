@@ -6,7 +6,8 @@
         "set": "Main",
         "cards": [
             {
-                "pack": "Enemies of Asgard",
+                "type": "villain",
+                "main": "Enemies of Asgard",
                 "name": "Frost Giant",
                 "id": 1121,
                 "img": "https://marveldbg.com/wp-content/uploads/2019/09/enemies-of-asgard-04.jpg",
@@ -15,7 +16,8 @@
                 "special": ""
             },
             {
-                "pack": "Enemies of Asgard",
+                "type": "villain",
+                "main": "Enemies of Asgard",
                 "name": "Destroyer",
                 "id": 1122,
                 "img": "https://marveldbg.com/wp-content/uploads/2019/09/enemies-of-asgard-03.jpg",
@@ -24,7 +26,8 @@
                 "special": ""
             },
             {
-                "pack": "Enemies of Asgard",
+                "type": "villain",
+                "main": "Enemies of Asgard",
                 "name": "Enchantress",
                 "id": 1123,
                 "img": "https://marveldbg.com/wp-content/uploads/2019/09/enemies-of-asgard-02.jpg",
@@ -33,7 +36,8 @@
                 "special": ""
             },
             {
-                "pack": "Enemies of Asgard",
+                "type": "villain",
+                "main": "Enemies of Asgard",
                 "name": "Ymir, Frost Giant King",
                 "id": 1124,
                 "img": "https://marveldbg.com/wp-content/uploads/2019/09/enemies-of-asgard-01.jpg",
