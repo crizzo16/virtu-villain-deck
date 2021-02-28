@@ -20,6 +20,28 @@
             <h1 class="title-font">Virtual Villain Deck</h1>
         </header>
 
+        <!-- buttons -->
+        <div class="row flex flex-center">
+            <div id="mastermind-area"></div>
+            <div id="button area">
+                <button>Escaped!</button>
+                <button id="fight-modal-btn" class="btn m-10 waves-effect waves-light modal-trigger"
+                    href="#fightModal">Fight!</button>
+                <button id="other-fought" class="btn m-10 waves-effect waves-dark">Other player fought</button>
+            </div>
+            <div>
+                <div id="fightModal" class="modal">
+                    <div id="fight-modal-content" class="modal-content flex flex-center">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button id="fight-done"
+                            class="btn red lighten-1 m-10 modal-close waves-effect waves-purple">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- City section -->
         <div class="black-box">
             <div class="flex flex-center">
@@ -48,21 +70,56 @@
 
         <!-- All of the collapsibles -->
         <div class="row">
-            <div id="escape" class="collapsible expandable">
-                <div class="collapsible-header">Escaped Villains</div>
-                <div class="collapsible-body white-back">test</div>
-            </div>
-            <div id="victory-pile" class="collapsible expandable">
-                <div class="collapsible-header">Victory Pile</div>
-                <div class="collapsible-body white-back"></div>
-            </div>
-            <div id="deck-cards" class="collapsible expandable">
-                <div class="collapsible-header">Possible Cards</div>
-                <div class="collapsible-body white-back"></div>
-            </div>
-            <div id="full-roster" class="collapsible expandable">
-                <div class="collapsible-header">All Bad Dudes</div>
-                <div class="collapsible-body white-back"></div>
+            <div class="collapsible expandible">
+                <li class="hidden-list">
+                    <div class="collapsible-header">Game Bad Dudes</div>
+                    <div class="collapsible-body white-back">
+                        <!-- buttons -->
+                        <div>
+                            <button id="add-city" class="btn m-5 waves-effect waves-light">Add to City</button>
+                            <button id="remove-dude" class="btn m-5 waves-effect waves-light">Remove from game</button>
+                            <button id="add-vp" class="btn m-5 waves-effect waves-light">Add to Victory Pile</button>
+                            <button id="by-to-bank" class="btn m-5 waves-effect waves-light">Bystander to Bank!</button>
+                            <button id="by-to-city" class="btn m-5 waves-effect waves-light">Bystander to City!</button>
+                        </div>
+                        <div id="gamePeeps-here" class="flex flex-wrap"></div>
+                    </div>
+                </li>
+                <li class="hidden-list">
+                    <div class="collapsible-header">Escaped Bad Dudes (<span id="esc-by"></span> &nbsp;escaped
+                        bystanders)</div>
+                    <div class="collapsible-body white-back">
+                        <div id="escapees-here"></div>
+                    </div>
+                </li>
+                <li class="hidden-list">
+                    <div class="collapsible-header">Victory Pile: &nbsp;<span id="vp-points"></span>&nbsp; points</div>
+                    <div class="collapsible-body white-back">
+                        <div>
+                            <button id="remove-vp" class="btn m-5 waves-effect waves-light">Remove from Victory
+                                Pile</button>
+                        </div>
+                        <div id="vp-cards-here"></div>
+                    </div>
+                </li>
+                <li class="hidden-list">
+                    <div class="collapsible-header">All Bad Dudes</div>
+                    <div class="collapsible-body white-back">
+                        <div>
+                            <button id="add-game" class="btn m-5 waves-effect waves-light">Add to Game</button>
+                        </div>
+                        <div class="subsection-header">Masterminds</div>
+                        <div id="all-master"></div>
+                        <div class="subsection-header">Villains</div>
+                        <div id="all-villain"></div>
+                        <div class="subsection-header">Henchmen</div>
+                        <div id="all-hench"></div>
+                    </div>
+                </li>
+                <li class="hidden-list">
+                    <div class="collapsible-header">Special Rules</div>
+                    <div class="collapsible-body white-back" id="rules-go-here"></div>
+                </li>
             </div>
         </div>
     </div>
