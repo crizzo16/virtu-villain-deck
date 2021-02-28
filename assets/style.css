@@ -50,5 +50,73 @@ body {
 .card-space {
     min-height: 260px;
     min-width: 185px;
-    border: 1px solid black;
+}
+
+.hidden-list {
+    list-style-type: none;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.subsection-header {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.bystander {
+    object-fit: cover;
+    width: 185px;
+    height: 25px;
+    object-position: top;
+}
+
+.all-master-highlight {
+    font-weight: bold;
+    background: #FFA726;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.game-highlight {
+    font-weight: bold;
+    background: #9575CD;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.vp-card-highlight {
+    font-weight: bold;
+    background: yellow;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.city-highlight {
+    border: 5px solid red;
+}
+
+.bystander-highlight {
+    font-weight: bold;
+    background: purple;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.mini-header {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.city-card {
+    width: 100%;
 }
