@@ -3,6 +3,7 @@
         "type": "henchmen",
         "name": "Savage Land Mutants",
         "id": 123,
+        "set": "Main",
         "cards": [
             {
                 "type": "henchmen",
@@ -19,6 +20,7 @@
     {
         "type": "henchmen",
         "name": "Mandarin Rings",
+        "set": "Revelations",
         "id": 421,
         "cards": [
             {
@@ -117,6 +119,60 @@
                 "name": "Daimonic, the White Light",
                 "id": 42110,
                 "img": "https://marveldbg.com/wp-content/uploads/2019/09/mandarins-rings-10.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            }
+        ]
+    },
+    {
+        "type": "henchmen",
+        "name": "Doombot Legion",
+        "id": 121,
+        "set": "Main",
+        "cards": [
+            {
+                "type": "henchmen",
+                "main": "Doombot Legion",
+                "name": "Doombot Legion",
+                "id": 1211,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/doombot-legion.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            }
+        ]
+    },
+    {
+        "type": "henchmen",
+        "name": "Hand Ninjas",
+        "id": 122,
+        "set": "Main",
+        "cards": [
+            {
+                "type":"henchmen",
+                "main": "Hand Ninjas",
+                "name": "Hand Ninjas",
+                "id": 1221,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/hand-ninjas.jpg",
+                "attack": 3,
+                "vp": 1,
+                "special": ""
+            }
+        ]
+    },
+    {
+        "type": "henchmen",
+        "name": "Sentinel",
+        "id": 124,
+        "set": "Main",
+        "cards": [
+            {
+                "type": "henchmen",
+                "main": "Sentinel",
+                "name": "Sentinel",
+                "id": 1241,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/sentinel.jpg",
                 "attack": 3,
                 "vp": 1,
                 "special": ""

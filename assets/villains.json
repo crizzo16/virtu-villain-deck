@@ -46,5 +46,101 @@
                 "special": ""
             }
         ]
+    },
+    {
+        "type": "villain",
+        "name": "X-Men '92",
+        "id": 516,
+        "set": "Secret Wars Vol. 2",
+        "cards": [
+            {
+                "type": "villain",
+                "main": "X-Men '92",
+                "name": "'92 Beast",
+                "id": 5161,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/x-men-92-01.jpg",
+                "attack": 5,
+                "vp": 0,
+                "special": "You gain this card as a hero instead."
+            },
+            {
+                "type": "villain",
+                "main": "X-Men '92",
+                "name": "'92 Jubilee",
+                "id": 5162,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/x-men-92-02.jpg",
+                "attack": 4,
+                "vp": 0,
+                "special": "You gain this card as a hero instead."
+            },
+            {
+                "type": "villain",
+                "main": "X-Men '92",
+                "name": "'92 Wolverine",
+                "id": 5163,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/x-men-92-04.jpg",
+                "attack": 4,
+                "vp": 0,
+                "special": "You gain this card as a hero instead."
+            },
+            {
+                "type": "villain",
+                "main": "X-Men '92",
+                "name": "'92 Professor X",
+                "id": 5164,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/x-men-92-03.jpg",
+                "attack": 8,
+                "vp": 8,
+                "special": ""
+            }
+        ]
+    },
+    {
+        "type": "villain",
+        "name": "Thunderbolts",
+        "id": 217,
+        "set": "Civil War",
+        "cards": [
+            {
+                "type": "villain",
+                "main": "Thunderbolts",
+                "name": "Songbird",
+                "id": 2171,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/thunderbolts-01.jpg",
+                "attack": 5,
+                "vp": 3,
+                "special": ""
+            },
+            {
+                "type": "villain",
+                "main": "Thunderbolts",
+                "name": "Fixer",
+                "id": 2172,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/thunderbolts-02.jpg",
+                "attack": 4,
+                "vp": 2,
+                "special": ""
+            },
+            {
+                "type": "villain",
+                "main": "Thunderbolts",
+                "name": "Radioactive Man",
+                "id": 2173,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/thunderbolts-03.jpg",
+                "attack": 6,
+                "vp": 4,
+                "special": ""
+            },
+            {
+                "type": "villain",
+                "main": "Thunderbolts",
+                "name": "Mach-IV",
+                "id": 2174,
+                "img": "https://marveldbg.com/wp-content/uploads/2019/09/thunderbolts-04.jpg",
+                "attack": 5,
+                "vp": 3,
+                "special": ""
+            }
+        ]
     }
 ]
