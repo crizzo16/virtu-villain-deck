@@ -22,12 +22,21 @@
 
         <!-- buttons -->
         <div class="row flex flex-center">
-            <div id="mastermind-area"></div>
+            <div id="mastermind-area" class="flex flex-center">
+                <img src="" id="big-mastermind" class="mastermind-img" />
+                <div>
+                    <div id="m-01" class="mastermind-count-yes"></div>
+                    <div id="m-02" class="mastermind-count-yes"></div>
+                    <div id="m-03" class="mastermind-count-yes"></div>
+                    <div id="m-04" class="mastermind-count-yes"></div>
+                </div>
+            </div>
             <div id="button area">
                 <button id="fight-modal-btn" class="btn m-10 waves-effect waves-light modal-trigger"
                     href="#fightModal">Fight!</button>
                 <button id="other-fought" class="btn m-10 waves-effect waves-dark">Other player fought</button>
                 <button id="view-cards-btn" class="btn m-10 waves-effect waves-dark modal-trigger" href="#view-modal">View Cards</button>
+                <button id="fight-mastermind" class="btn m-10 waves-effect">Fight Mastermind</button>
             </div>
             <div>
                 <div id="fightModal" class="modal">
@@ -82,11 +91,12 @@
                     <div class="collapsible-body white-back">
                         <!-- buttons -->
                         <div>
-                            <button id="add-city" class="btn m-5 waves-effect waves-light">Add to City</button>
+                            <button id="add-city" class="btn m-5 waves-effect waves-light">Bad Dude to City</button>
                             <button id="remove-dude" class="btn m-5 waves-effect waves-light">Remove from game</button>
                             <button id="add-vp" class="btn m-5 waves-effect waves-light">Add to Victory Pile</button>
                             <button id="by-to-bank" class="btn m-5 waves-effect waves-light">Bystander to Bank!</button>
                             <button id="by-to-city" class="btn m-5 waves-effect waves-light">Bystander to City!</button>
+                            <button id="mastermind-btn" class="btn m-5 orange waves-effect waves-light">Choose a Mastermind</button>
                         </div>
                         <div id="gamePeeps-here" class="flex flex-wrap"></div>
                     </div>
