@@ -120,3 +120,8 @@ body {
 .city-card {
     width: 100%;
 }
+
+.modal-img {
+    max-width: 350px;
+    margin: 5px;
+}

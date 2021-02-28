@@ -376,6 +376,7 @@ let virtu = {
                             virtu.gameDudes.unshift(a); // add card
                             virtu.removeSpaces(1); // remove spaces
                             virtu.checkEscapees();
+                            virtu.shiftBystanders();
                             virtu.loadCity();
                             return;
                         }
@@ -423,6 +424,23 @@ let virtu = {
             });
         }
     },
+    shiftBystanders: function () {
+        let i = 4;
+        for (m = 0; m < 5; m++) {
+            if (i == 4) {
+                let done = virtu.gameBystanders[4].length;
+                for (let j = 0; j < done; j++) {
+                    virtu.escapedConvicts.push(virtu.gameBystanders[4].shift());
+                }
+            } else {
+                let done = virtu.gameBystanders[i].length;
+                for (let k = 0; k < done; k++) {
+                    virtu.gameBystanders[i + 1].push(virtu.gameBystanders[i].shift());
+                }
+            }
+            i = i - 1;
+        }
+    },
     removeSpaces: function (amount) {
         let count = 0;
         for (let i = 0; i < virtu.gameDudes.length; i++) {
@@ -451,6 +469,7 @@ let virtu = {
             if (item.id == id) {
                 virtu.victoryPile.splice(index, 1);
                 virtu.loadVictoryPile();
+                virtu.countVP();
                 return;
             }
         });
@@ -465,7 +484,7 @@ let virtu = {
         });
         $("#fight-modal-content").html("");
         virtu.fightModal.forEach(function (item, index, array) {
-            let img = $("<img>").attr("src", item.img);
+            let img = $("<img>").attr("src", item.img).addClass("modal-img");
             $("#fight-modal-content").append(img);
         });
         delete virtu.gameDudes[index];
