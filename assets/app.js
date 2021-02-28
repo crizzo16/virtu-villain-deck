@@ -25,12 +25,13 @@ let virtu = {
         }
     ],
     gameDudes: [],
-    gameLocals: [],
+    gameLocations: [],
     gameBystanders: [[], [], [], [], []],
     escapedConvicts: [],
     victoryPile: [],
     fightModal: [],
     sortMethod: "",
+    mastermindCard: 1,
     deckSelectedCard: "",
     parseJsons: function () {
         // Load in Villains
@@ -286,6 +287,16 @@ let virtu = {
             $(this).addClass("all-master-highlight");
         }
     },
+    selectMainGamePeep: function () {
+        const selected = $(".mini-header-highlight").attr("set-id");
+        const id = $(this).attr("set-id");
+        console.log(selected, id);
+        $(".mini-header-highlight").removeClass("mini-header-highlight");
+        if (selected != id) {
+            console.log("here");
+            $(this).addClass("mini-header-highlight");
+        }
+    },
     selectGameDude: function () {
         const selected = $(".game-highlight").attr("set-id");
         const id = $(this).attr("set-id");
@@ -493,6 +504,7 @@ let virtu = {
             virtu.gameBystanders[index].shift();
         }
         virtu.loadCity();
+        virtu.doneFight();
     },
     doneFight: function () {
         let done = virtu.fightModal.length;
@@ -511,6 +523,35 @@ let virtu = {
             virtu.gameBystanders[index].shift();
         }
         virtu.loadCity();
+    },
+    viewCardsModal: function () {
+        console.log("firing");
+        let index = $(".city-highlight").attr("index");
+        $("#view-modal-content").html("");
+        let main = $("<img>").attr("src", virtu.gameDudes[index].img).addClass("modal-img");
+        $("#view-modal-content").append(main);
+        virtu.gameBystanders[index].forEach(function (item, index, array) {
+            let temp = $("<img>").attr("src", item.img).addClass("modal-img");
+            $("#view-modal-content").append(temp);
+        });
+    },
+    addMastermind: function () {
+        $("#big-mastermind").attr("src", "");
+        const id = $(".mini-header-highlight").attr("set-id");
+        virtu.gamePeeps.forEach(function (item, index, array) {
+            if (item.type == "mastermind" && id == item.id) {
+                $("#big-mastermind").attr("src", item.img);
+                return;
+            }
+        });
+    },
+    fightMastermind: function () {
+        if (virtu.mastermindCard < 5) {
+            let card = "#m-0" + virtu.mastermindCard;
+            console.log(card);
+            $(card).removeClass("mastermind-count-yes");
+            virtu.mastermindCard++;
+        }
     }
 };
 
@@ -526,12 +567,15 @@ $(document).on("click", ".game-card", virtu.selectGameDude);
 $(document).on("click", ".vp-card", virtu.selectVPCard);
 $(document).on("click", ".city-card", virtu.selectCityDude);
 $(document).on("click", ".city-by", virtu.selectBystander);
+$(document).on("click", ".mini-header", virtu.selectMainGamePeep);
 $(document).on("click", "#add-game", virtu.addToGame);
 $(document).on("click", "#add-vp", virtu.addVictoryPile);
 $(document).on("click", "#add-city", virtu.addCity);
 $(document).on("click", "#by-to-bank", virtu.addByBank);
 $(document).on("click", "#by-to-city", virtu.addBystander);
+$(document).on("click", "#mastermind-btn", virtu.addMastermind);
 $(document).on("click", "#remove-vp", virtu.removeVictoryPile);
 $(document).on("click", "#fight-modal-btn", virtu.fight);
-$(document).on("click", "#fight-done", virtu.doneFight);
 $(document).on("click", "#other-fought", virtu.otherfought);
+$(document).on("click", "#view-cards-btn", virtu.viewCardsModal);
+$(document).on("click", "#fight-mastermind", virtu.fightMastermind);

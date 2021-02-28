@@ -48,8 +48,8 @@ body {
 }
 
 .card-space {
-    min-height: 260px;
-    min-width: 185px;
+    min-height: 200px;
+    min-width: 150px;
 }
 
 .hidden-list {
@@ -71,7 +71,7 @@ body {
 
 .bystander {
     object-fit: cover;
-    width: 185px;
+    width: 150px;
     height: 25px;
     object-position: top;
 }
@@ -117,6 +117,14 @@ body {
     font-size: 1.5em;
 }
 
+.mini-header-highlight {
+    font-weight: bold;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
 .city-card {
     width: 100%;
 }
@@ -124,4 +132,16 @@ body {
 .modal-img {
     max-width: 350px;
     margin: 5px;
+}
+
+.mastermind-count-yes {
+    width:25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.mastermind-img {
+    width: 200px;
 }
